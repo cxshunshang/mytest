@@ -1,0 +1,22 @@
+{
+    "name": "admin/mykj",
+    "authors": [
+        {
+            "name": "Tonymyts",
+            "email": "1213707340@qq.com"
+        }
+    ],
+    "require": {},
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "autoload":{
+        "psr-4":{
+            "app\\":"app",
+            "core\\":"core"
+        }
+    }
+}
